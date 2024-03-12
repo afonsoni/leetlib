@@ -7,6 +7,9 @@ pub use lc_0242_valid_anagram::*;
 pub mod lc_0412_fizz_buzz;
 pub use lc_0412_fizz_buzz::*;
 
+pub mod lc_0876_middle_of_the_linked_list;
+pub use lc_0876_middle_of_the_linked_list::*;
+
 pub mod lc_1342_number_of_steps_to_reduce_a_number_to_zero;
 pub use lc_1342_number_of_steps_to_reduce_a_number_to_zero::*;
 
