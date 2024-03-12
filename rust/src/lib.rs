@@ -1,3 +1,6 @@
+pub mod lc_0088_merge_sorted_array;
+pub use lc_0088_merge_sorted_array::*;
+
 pub mod lc_0217_contains_duplicate;
 pub use lc_0217_contains_duplicate::*;
 
