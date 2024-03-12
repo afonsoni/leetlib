@@ -4,6 +4,9 @@ pub use lc_0217_contains_duplicate::*;
 pub mod lc_0242_valid_anagram;
 pub use lc_0242_valid_anagram::*;
 
+pub mod lc_0383_ransom_note;
+pub use lc_0383_ransom_note::*;
+
 pub mod lc_0412_fizz_buzz;
 pub use lc_0412_fizz_buzz::*;
 
