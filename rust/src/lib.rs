@@ -1,3 +1,6 @@
+pub mod lc_0027_remove_element;
+pub use lc_0027_remove_element::*;
+
 pub mod lc_0088_merge_sorted_array;
 pub use lc_0088_merge_sorted_array::*;
 
