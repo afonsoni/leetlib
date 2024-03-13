@@ -6,6 +6,7 @@ pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
             j += 1;
         }
     }
+    nums.resize(j, 0);
     j as i32
 }
 
@@ -18,10 +19,7 @@ mod tests {
     fn test1() {
         let mut nums = vec![1, 1, 1, 2, 2, 3];
         assert_eq!(remove_duplicates(&mut nums), 5);
-        let num = vec![1, 1, 2, 2, 3];
-        for i in 0..5 {
-            assert_eq!(nums[i], num[i]);
-        }
+        assert_eq!(nums, vec![1, 1, 2, 2, 3]);
     }
 
     // nums = [0,0,1,1,1,1,2,3,3]
@@ -29,9 +27,6 @@ mod tests {
     fn test2() {
         let mut nums = vec![0, 0, 1, 1, 1, 1, 2, 3, 3];
         assert_eq!(remove_duplicates(&mut nums), 7);
-        let num = vec![0, 0, 1, 1, 2, 3, 3];
-        for i in 0..7 {
-            assert_eq!(nums[i], num[i]);
-        }
+        assert_eq!(nums, vec![0, 0, 1, 1, 2, 3, 3]);
     }
 }
