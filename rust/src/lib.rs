@@ -1,3 +1,6 @@
+pub mod lc_0026_remove_duplicates_from_sorted_array;
+pub use lc_0026_remove_duplicates_from_sorted_array::*;
+
 pub mod lc_0027_remove_element;
 pub use lc_0027_remove_element::*;
 
