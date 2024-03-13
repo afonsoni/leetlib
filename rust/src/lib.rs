@@ -4,6 +4,9 @@ pub use lc_0026_remove_duplicates_from_sorted_array::*;
 pub mod lc_0027_remove_element;
 pub use lc_0027_remove_element::*;
 
+pub mod lc_0080_remove_duplicates_from_sorted_array_ii;
+pub use lc_0080_remove_duplicates_from_sorted_array_ii::*;
+
 pub mod lc_0088_merge_sorted_array;
 pub use lc_0088_merge_sorted_array::*;
 
