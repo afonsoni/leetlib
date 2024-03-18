@@ -10,6 +10,9 @@ pub use lc_0080_remove_duplicates_from_sorted_array_ii::*;
 pub mod lc_0088_merge_sorted_array;
 pub use lc_0088_merge_sorted_array::*;
 
+pub mod lc_0169_majority_element;
+pub use lc_0169_majority_element::*;
+
 pub mod lc_0217_contains_duplicate;
 pub use lc_0217_contains_duplicate::*;
 
