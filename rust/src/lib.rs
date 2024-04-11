@@ -10,8 +10,17 @@ pub use lc_0080_remove_duplicates_from_sorted_array_ii::*;
 pub mod lc_0088_merge_sorted_array;
 pub use lc_0088_merge_sorted_array::*;
 
+pub mod lc_0121_best_time_to_buy_and_sell_stock;
+pub use lc_0121_best_time_to_buy_and_sell_stock::*;
+
+pub mod lc_0122_best_time_to_buy_and_sell_stock_ii;
+pub use lc_0122_best_time_to_buy_and_sell_stock_ii::*;
+
 pub mod lc_0169_majority_element;
 pub use lc_0169_majority_element::*;
+
+pub mod lc_0189_rotate_array;
+pub use lc_0189_rotate_array::*;
 
 pub mod lc_0217_contains_duplicate;
 pub use lc_0217_contains_duplicate::*;
